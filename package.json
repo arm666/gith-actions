@@ -1,5 +1,6 @@
 {
   "name": "gith-actions",
+  "homepage": "https://arm666.github.io/gith-actions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
