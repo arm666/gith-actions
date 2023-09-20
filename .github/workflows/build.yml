@@ -12,4 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Log
-        run: echo "Hello World"
+        run: echo "Your project start building..."
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: npm install && npm run build
